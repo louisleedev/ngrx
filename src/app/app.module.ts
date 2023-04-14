@@ -9,16 +9,16 @@ import { MatChipsModule } from '@angular/material/chips';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialogAnimationsExampleDialog } from './dialog/dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
-import { LoginComponent } from './login/login.component';
+
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './login/store/reducers';
+import { LoginModule } from './login/login.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     DialogComponent,
     DialogAnimationsExampleDialog,
-    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +28,7 @@ import { counterReducer } from './login/store/reducers';
     MatFormFieldModule,
     BrowserAnimationsModule,
     MatDialogModule,
+    LoginModule,
     StoreModule.forRoot({count: counterReducer})
   ],
   providers: [],

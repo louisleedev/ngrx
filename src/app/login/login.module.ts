@@ -8,7 +8,7 @@ import { counterReducer } from './store/reducers';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [LoginComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
@@ -16,8 +16,8 @@ import { counterReducer } from './store/reducers';
     ]),
     StoreModule.forFeature('login',{counter:counterReducer})
   ],
-  // exports:[
-  //   LoginComponent
-  // ]
+  exports:[
+    LoginComponent
+  ]
 })
 export class LoginModule { }
