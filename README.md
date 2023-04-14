@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Angular Design Pattern: MVVM Model View Viewmodel / MVC
+
+# Angular 14
+# NPM based node.js
+# Angular (Framework) vs React (Library)
+# Framework is organized, dont have to introduce library outside.
+# React is flexible, read or embedded something directly, not like Angular, need to use logic to do something. (Interview Question)
+# SPA (single page application)
